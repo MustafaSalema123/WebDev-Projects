@@ -1,0 +1,62 @@
+﻿@model List<Product>
+@if (TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+}
+
+    <div class="container">
+        <div class="row pt-4 pb-2">
+            <div class="col-6">
+                <h2 class="text-primary">
+                    Category list
+                </h2>
+            </div>
+              <div class="col-6">
+            <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-arrow-down-circle"></i> Creatory New Product
+
+                </a>
+        </div>
+        </div>
+    </div>
+
+<h1>Category List</h1>
+ <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>ISBN</th>
+                    <th>Price</th>
+                    <th>Author</th>
+                    <th>Category</th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+
+@section Scripts
+{
+ <script src="~/js/Product.js"> </script>
+}
+
+
+
+@*<tbody>
+        @foreach (var obj in Model)
+        {
+            <tr>
+                <td>@obj.Title</td>
+                    <td>@obj.ISBN</td>
+                <td>@obj.Price</td>
+                <td>@obj.Author</td>
+                <td> @obj.Category.name</td>
+              
+            <td class="w-75 btn-group">
+                <div>
+                        <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id" class="btn btn-primary mx-2">Edit</a>
+                        <a asp-controller="Product" asp-action="delete" asp-route-id="@obj.Id" asp-action="Index" class="btn btn-primary mx-2 ns">Delete</a>
+                </div>
+            </td>
+                </tr>
+        } </tbody>*@
+    

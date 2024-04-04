@@ -1,0 +1,52 @@
+﻿@model List<Category>
+@if (TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+}
+
+    <div class="container">
+        <div class="row pt-4 pb-2">
+            <div class="col-6">
+                <h2 class="text-primary">
+                    Category list
+                </h2>
+            </div>
+              <div class="col-6">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                   <i class="bi bi-arrow-down-circle"></i> Creatory New Category
+
+                </a>
+        </div>
+        </div>
+    </div>
+
+<h1>Category List</h1>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+        <th>
+            Category Name
+        </th>
+        <th>
+            Display Order
+        </th>
+    </tr>
+    </thead>
+<tbody>
+        @foreach (var obj in Model.OrderBy (u=> u.DisplayOrder))
+        {
+            <tr>
+                <td>@obj.name</td>
+                    <td>@obj.DisplayOrder</td>
+            
+            <td class="w-75 btn-group">
+                <div>
+           <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">Edit</a>
+                            <a asp-controller="Category" asp-action="delete" asp-route-id="@obj.Id" asp-action="Index" class="btn btn-primary mx-2 ns">Delete</a>
+                </div>
+            </td>
+                </tr>
+        }
+    </tbody>
+
+</table>

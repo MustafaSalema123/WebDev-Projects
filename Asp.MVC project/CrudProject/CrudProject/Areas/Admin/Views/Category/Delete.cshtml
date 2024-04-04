@@ -1,0 +1,35 @@
+﻿@model Category
+
+
+<form method="post">
+    <div class="border p-3 mt-4">
+         <div class="form-floating py-2 col-12">
+             <h2 class=" text-primary">Edit  Catgeory</h2>
+             <hr/>
+
+            <span  class="text-danger"></span>
+           </div>
+            <div class="form-floating py-2 col-12">
+            <input asp-for="name" disabled type="text" class="form-control border-0 shadow" />
+            <label  asp-for="name" class="ms-2">Name</label>
+   
+           </div>
+                   <div class="form-floating py-2 col-12">
+             <input asp-for="DisplayOrder" disabled type="text" class="form-control border-0 shadow" />
+            <label  asp-for="DisplayOrder" class="ms-2">Display Order</label>
+
+        
+
+           </div>
+           <button type="submit" class="btn btn-primary" style="width:150px">Delete</button>
+        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px"> back to List </a>
+    </div>
+</form>
+
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}

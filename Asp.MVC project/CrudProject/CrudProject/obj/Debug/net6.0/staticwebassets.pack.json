@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CrudProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CrudProject.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\07e54c2c-95bf-41ee-8889-2014945f2cf7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\07e54c2c-95bf-41ee-8889-2014945f2cf7.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\08efed32-f109-410c-a83a-c8775df369f6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\08efed32-f109-410c-a83a-c8775df369f6.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\2809c747-eef8-49c8-9405-22dbb71c2ea3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\2809c747-eef8-49c8-9405-22dbb71c2ea3.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\4011aefe-ab81-43f5-ab24-3b53db8ff4b9.db",
+      "PackagePath": "staticwebassets\\images\\product\\4011aefe-ab81-43f5-ab24-3b53db8ff4b9.db"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\8714849e-e816-4721-ac2d-256d75ca5373.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\8714849e-e816-4721-ac2d-256d75ca5373.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\90c42072-e058-43dc-b362-561e1253d74c.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\90c42072-e058-43dc-b362-561e1253d74c.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\97a2e203-115b-4232-8605-962a297fe6a8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\97a2e203-115b-4232-8605-962a297fe6a8.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\996880da-a8b0-492f-b949-a3f31774f34a.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\996880da-a8b0-492f-b949-a3f31774f34a.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\a141207c-f854-44c8-8298-dce03185e9de.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\a141207c-f854-44c8-8298-dce03185e9de.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\ba4ed233-23ed-461f-83c4-f7887def519f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\ba4ed233-23ed-461f-83c4-f7887def519f.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\c0ebbd01-52ea-4226-b1d5-b687c5b4aafa.png",
+      "PackagePath": "staticwebassets\\images\\product\\c0ebbd01-52ea-4226-b1d5-b687c5b4aafa.png"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\cfc73c71-c390-4e42-b497-a203270279f0.db",
+      "PackagePath": "staticwebassets\\images\\product\\cfc73c71-c390-4e42-b497-a203270279f0.db"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\d20b0da2-c78e-439f-adf2-822ebd045985.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\d20b0da2-c78e-439f-adf2-822ebd045985.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\e7fa056a-95c6-4f21-9932-3c1165d1f7ac.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\e7fa056a-95c6-4f21-9932-3c1165d1f7ac.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\eab88c7b-3af3-49eb-8199-6c85c885fe45.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\eab88c7b-3af3-49eb-8199-6c85c885fe45.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\images\\product\\f5287bf5-a39f-4610-869e-ae50ed2e2123.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\f5287bf5-a39f-4610-869e-ae50ed2e2123.jpg"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\js\\Company.js",
+      "PackagePath": "staticwebassets\\js\\Company.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\js\\Order.js",
+      "PackagePath": "staticwebassets\\js\\Order.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\js\\Product.js",
+      "PackagePath": "staticwebassets\\js\\Product.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\js\\User.js",
+      "PackagePath": "staticwebassets\\js\\User.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\CSharp.net project\\MVC project\\CrudProject\\CrudProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CrudProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CrudProject.props",
+      "PackagePath": "build\\CrudProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CrudProject.props",
+      "PackagePath": "buildMultiTargeting\\CrudProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CrudProject.props",
+      "PackagePath": "buildTransitive\\CrudProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

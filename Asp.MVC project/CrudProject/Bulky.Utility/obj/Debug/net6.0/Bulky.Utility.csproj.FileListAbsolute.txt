@@ -1,0 +1,12 @@
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\bin\Debug\net6.0\Bulky.Utility.deps.json
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\bin\Debug\net6.0\Bulky.Utility.dll
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\bin\Debug\net6.0\Bulky.Utility.pdb
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.csproj.AssemblyReference.cache
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.AssemblyInfoInputs.cache
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.AssemblyInfo.cs
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.csproj.CoreCompileInputs.cache
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.dll
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\refint\Bulky.Utility.dll
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\Bulky.Utility.pdb
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Utility\obj\Debug\net6.0\ref\Bulky.Utility.dll

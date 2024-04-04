@@ -1,0 +1,12 @@
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\bin\Debug\net6.0\Bulky.Model.deps.json
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\bin\Debug\net6.0\Bulky.Model.dll
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\bin\Debug\net6.0\Bulky.Model.pdb
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.csproj.AssemblyReference.cache
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.AssemblyInfoInputs.cache
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.AssemblyInfo.cs
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.csproj.CoreCompileInputs.cache
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.dll
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\refint\Bulky.Model.dll
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\Bulky.Model.pdb
+E:\CSharp.net project\MVC project\CrudProject\Bulky.Model\obj\Debug\net6.0\ref\Bulky.Model.dll
