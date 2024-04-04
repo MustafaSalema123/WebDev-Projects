@@ -1,0 +1,149 @@
+
+  
+<!--  -->
+<!-- <form [formGroup]="productForm" (ngSubmit)="addProduct()"> -->
+
+    <div class="container" >
+        <div class="card">
+            <div class="card-header bg-dark text-light ml-0">
+                <div class="container row">
+                    <div class="col-12 d-none d-md-block col-md-6 pb-1">
+                        <i class="fas fa-shopping-cart"></i> &nbsp; ADD Product 
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-2 text-right">
+                        <a  class="btn btn-outline-info form-control btn-sm" (click)="navigateToOrders()" >Back to Orders</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container rounded p-2">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 pb-4">
+                            <div class="row">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="text-primary">Product  Details:</span>
+                                </h4>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Product Id</div>
+                                <div class="col-9">
+                                 
+                                   
+                                    <input  class="form-control" type="text" placeholder="Product Id" [(ngModel)]="product.id" name="id" required>
+                                    
+
+                                </div>
+                            <div class="row my-1">
+                                <div class="col-3">Product Name</div>
+                                <div class="col-9">
+                                 
+                                   
+                                    <input  class="form-control" type="text" placeholder="Product Name" [(ngModel)]="product.product_name" name="product_name" required>
+                                    
+
+                                </div>
+                            </div>
+                        
+                                <div class="row my-1">
+                                    <div class="col-3">Description</div>
+                                    <div class="col-9">
+                                     
+                                        <input class="form-control"  type="text" placeholder="Description" [(ngModel)]="product.product_description" name="product_description" required>
+                                         
+                                        
+                                    </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Price</div>
+                                <div class="col-9">
+                                
+                         
+
+                                        <input  class="form-control" type="number" placeholder="Price" [(ngModel)]="product.price" name="price" required>
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Ratings</div>
+                                <div class="col-9">
+                                      
+                     <input  min="0" max="5" class="form-control" 
+                     type="number" placeholder="Ratings" [(ngModel)]="product.ratings" name="ratings" required>
+  
+                                      
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Category ID</div>
+                                <div class="col-9">
+                                    
+                                   
+                                    <input  class="form-control" type="number" placeholder="Category ID" [(ngModel)]="product.category_id" name="category_id" required>
+                               
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Product Image</div>
+                                <div class="col-9">
+                                   
+                                    <!-- <input  class="form-control" type="file" placeholder="Product Image" [(ngModel)]="product.product_img" name="product_img" required> -->
+                          
+                                    <input type="file" (change)="onFileSelected($event)" name="product_img" accept=".jpg, .jpeg, .png" required>
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">keywords</div>
+                                <div class="col-9">
+                               
+                                    <input  class="form-control" type="text" placeholder="Keywords" [(ngModel)]="product.keywords" name="keywords" required>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <button  class="form-control" (click)="addProduct()" type="submit">Add Product</button>
+
+                               
+               
+                                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- </form> -->
+
+ <div
+class="alert"
+[ngClass]="alertType === 0 ? 'alert-success' : 'alert-danger'"
+*ngIf="alertMessage !== ''"
+>
+{{ alertMessage }}
+</div>
+ 
+
+<!-- <div *ngIf="orderUserDetail && orderItemDetails">
+    <h2>Order Details</h2>
+    <p><strong>Order ID:</strong> {{ orderUserDetail.orderId }}</p>
+    <p><strong>Order Date:</strong> {{ orderUserDetail.orderDate }}</p>
+    <p><strong>User Name:</strong> {{ orderUserDetail.userName }}</p>
+    <p><strong>Address:</strong> {{ orderUserDetail.address }}</p>
+    <p><strong>City:</strong> {{ orderUserDetail.city }}</p>
+    <p><strong>State:</strong> {{ orderUserDetail.state }}</p>
+    <p><strong>Pin:</strong> {{ orderUserDetail.pin }}</p>
+    <p><strong>Total:</strong> {{ orderUserDetail.total }}</p>
+    <p><strong>Order Status:</strong> {{ orderUserDetail.orderstatus }}</p>
+  
+    <h2>Order Items</h2>
+    <div *ngFor="let item of orderItemDetails">
+      <div>
+    <img [src]="item.product_img" alt="Product Image" width="100" height="100"> 
+        <p><strong>Product Name:</strong> {{ item.productId }}</p>
+        <p><strong>Quantity:</strong> {{ item.qty }}</p>
+        <p><strong>Price:</strong> {{ item.price }}</p>
+        <p><strong>Amount:</strong> {{ item.amount }}</p>
+      </div>
+    </div>
+  </div> -->

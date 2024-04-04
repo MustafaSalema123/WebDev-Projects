@@ -1,0 +1,134 @@
+<!-- ﻿@{
+    var status = Context.Request.Query["status"];
+    var pending = "text-primary";
+    var inprocess = "text-primary";
+    var completed = "text-primary";
+    var approved = "text-primary";
+    var all = "text-primary";
+
+    switch (status)
+    {
+        case "pending":
+            pending = "active text-white bg-primary";
+            break;
+        case "inprocess":
+            inprocess = "active text-white bg-primary";
+            break;
+        case "completed":
+            completed = "active text-white bg-primary";
+            break;
+        case "approved":
+            approved = "active text-white bg-primary";
+            break;
+        default:
+            all = "active text-white bg-primary";
+            break;
+
+    }
+
+}
+ -->
+<!-- 
+<div class="container">
+    <div class="row pt-4 pb-2">
+        <div class="col-6">
+            <h2 class="text-primary">
+                Order list
+            </h2>
+        </div>
+      
+    </div>
+</div>
+<div class="card-body p-2">
+    <div class="d-flex justify-content-between pb-5 pt-1 ">
+        <span></span>
+        <ul class="list-group list-group-horizontal-sm">
+            <a>
+            <li class="list-group-item @inprocess">InProcssing</li>
+            </a>
+            <a  >
+            <li class="list-group-item @pending">Pending</li>
+            </a>
+            <a >
+            <li class="list-group-item @completed">Complete</li>
+            </a>
+            <a  >
+            <li class="list-group-item @approved">Approved</li>
+            </a>    
+            <a >
+            <li class="list-group-item @all">All</li>
+            </a>
+        </ul>
+    </div>
+</div>
+<table id="tblData" class="table table-bordered table-striped" >
+    
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>PhoneNumber</th>
+            <th>Email</th>
+            <th>Status</th>
+            <th>Total</th>
+            <th><button>Details</button></th>
+        </tr>
+
+</table>
+
+ -->
+ <div ng-app="myApp" ng-controller="OrderController">
+    <div class="container">
+        <div class="row pt-4 pb-2">
+            <div class="col-6">
+                <h2 class="text-primary">
+                    Order list
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-2">
+        <div class="d-flex justify-content-between pb-5 pt-1">
+            <span></span>
+            <ul class="list-group list-group-horizontal-sm">
+                <button routerLink="addProduct" class="list-group-item">Add Product</button>
+                <button (click)="loadDataTable('status=Processing')" class="list-group-item">InProcessing</button>
+                <button  (click)="loadDataTable('status=Pending')" class="list-group-item">Pending</button>
+                <button  (click)="loadDataTable('status=Complete')" class="list-group-item">Complete</button>
+                <button  (click)="loadDataTable('status=Confirmed')" class="list-group-item">Approved</button>
+                <button  (click)="loadDataTable('status=Awaitingpayment')" class="list-group-item">Awaitingpayment</button>
+                <button  (click)="loadDataTable('status=Shipped')" class="list-group-item">Shipped</button>
+                <button  (click)="loadDataTable('status=cancle')" class="list-group-item">Cancle</button>
+                <button  (click)="loadDataTable('status=all')" class="list-group-item">All</button>
+            </ul>
+        </div>
+    </div>
+    <table id="tblData" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>PhoneNumber</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let order of orders">
+                <td>{{ order.orderId }}</td>
+                <td>{{ order.userName }}</td>
+                <td>{{ 423435345 }}</td>
+                <td>{{  "dadad "}}</td>
+                <td>{{ order.orderstatus }}</td>
+                <td>{{ order.total }}</td>
+                <td>
+                    <button routerLink="details/{{ order.orderId}}" >Details</button>
+                    <!-- <div class="w-75 btn-group" role="group">
+                        <a href="/admin/order/details?orderid={{ order.id }}" class="btn btn-primary mx-2">Details</a>
+                    </div> -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

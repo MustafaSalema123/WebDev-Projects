@@ -1,0 +1,310 @@
+
+
+<form [formGroup]="orderDetailForm" (ngSubmit)="onSubmit()">
+    <input hidden />
+    <br />
+    <div class="container" >
+        <div class="card">
+            <div class="card-header bg-dark text-light ml-0">
+                <div class="container row">
+                    <div class="col-12 d-none d-md-block col-md-6 pb-1">
+                        <i class="fas fa-shopping-cart"></i> &nbsp; Order Summary
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-2 text-right">
+                        <a  class="btn btn-outline-info form-control btn-sm" (click)="navigateToOrders()" >Back to Orders</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container rounded p-2">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 pb-4">
+                            <div class="row">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="text-primary">PickUp Details:</span>
+                                </h4>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3"> Name</div>
+                                <div class="col-9">
+                                 
+                                   
+                                     <input   id="userName"
+                                          formControlName="userName" type="text" class="form-control" /> 
+                                    
+
+                                </div>
+                            </div>
+                            <!-- <div class="row my-1">
+                                <div class="col-3">Phone</div>
+                                <div class="col-9">
+                                 
+                                        <input type="text"  [(ngModel)] = "orderDetail.pin" formControlName="pin"   name="pin" class="form-control" />
+                                    
+                                </div> -->
+                                <div class="row my-1">
+                                    <div class="col-3">TOTAL</div>
+                                    <div class="col-9">
+                                     
+                                            <input type="text"   id="total"
+                                            formControlName="total" class="form-control" />
+                                        
+                                    </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Address</div>
+                                <div class="col-9">
+                                
+                                        <input type="text" id="address"
+                                        formControlName="address"    class="form-control" />
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">City</div>
+                                <div class="col-9">
+                                   
+                                        <input  id="city"
+                                        formControlName="city"  type="text" class="form-control" />
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">State</div>
+                                <div class="col-9">
+                                    
+                                   
+                                        <input   id="state"
+                                        formControlName="state"    type="text" class="form-control" />
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Zip Code</div>
+                                <div class="col-9">
+                                   
+                                        <input   id="pin"
+                                        formControlName="pin"  type="text" class="form-control" />
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Email</div>
+                                <div class="col-9">
+                               
+                                        <input asp-for="OrderHeader.ApplicationUser.Email"  type="text" class="form-control" />
+                                   
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Order Date</div>
+                                <div class="col-9">
+                                    <input  id="orderDate"
+                                    formControlName="orderDate"  type="text" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="row my-1">
+                                <div class="col-3">Order Delivery Date</div>
+                                <div class="col-9">
+                                    <input   formControlName="deliveryDate" type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Order Status</div>
+                                <div class="col-9">
+                                    <input  id="orderstatus"
+                                    formControlName="orderstatus"  type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Carrier</div>
+                                <div class="col-9">
+                                
+                                  
+                                    
+                                        <input asp-for="OrderHeader.Carrier "  type="text" class="form-control" />
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Tracking</div>
+                                <div class="col-9">
+                                  
+                                 
+                                        <input asp-for="OrderHeader.TrackingNumber"  type="text" class="form-control" />
+                                    
+                                    
+                                </div>
+                            </div>
+                            <!-- <div class="row my-1">
+                                <div class="col-3">Shipping Date</div>
+                                <div class="col-9">
+                                    <input value="@Model.OrderHeader.ShippingDate.ToShortDateString()" readonly type="text" class="form-control" />
+                                </div>
+                            </div> -->
+
+                            <!-- @if (User.IsInRole(staticDetails.Role_Admin) || User.IsInRole(staticDetails.Role_Employee))
+                            {
+                                <div class="row my-1">
+                                    <div class="col-3">Session ID</div>
+                                    <div class="col-9">
+
+                                        <input asp-for="OrderHeader.SessionId" readonly type="text" class="form-control" />
+
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">Payment Intent ID</div>
+                                    <div class="col-9">
+
+                                        <input asp-for="OrderHeader.PaymentIntentId" readonly type="text" class="form-control" />
+
+                                    </div>
+                                </div>
+                            } -->
+                            <!-- <div class="row my-1">
+
+                              
+                                   
+                                    <div class="col-3">Payment Date</div>
+                                    <div class="col-9">
+                                        <input value="@Model.OrderHeader.PaymentDate.ToShortDateString()" readonly type="text" class="form-control" />
+                                    </div>
+                                
+
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Payment Status</div>
+                                <div class="col-9">
+                                    <input asp-for="OrderHeader.PaymentStatus" readonly type="text" class="form-control" />
+                                </div>
+                            </div> -->
+                            <button type="submit" asp-action="UpdateOrderDetails" class="btn btn-warning form-control my-1" >Update Order details</button>
+                        </div>
+                        <div class="col-12 col-lg-5 offset-lg-1">
+                            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="text-primary">Order Summary</span>
+                            </h4>
+                            <label class="btn btn-outline-primary form-control my-2">Order Status - {{orderUserDetail.orderstatus}}</label>
+
+                            <!-- <ul class="list-group mb-3" *ngFor="let item of orderItemDetails">
+
+                               
+                                    <li class="list-group-item d-flex justify-content-between p-2">
+                                        <div class="row container">
+                                            <div class="col-8">
+                                                <h6 class="my-0 text-primary">@detail.Product.Title</h6> -
+                                                <small class="text-muted">Price : {{item?.price}}</small><br />
+                                                <small class="text-muted">Quantity :  {{item?.qty}} </small>
+                                            </div>
+                                            <div class="col-4 text-end">
+                                 <p class="text-success">Total: {{ (item && +item.price || 0) * (item && item.qty || 0) }}</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                              
+                            </ul>-->
+                        
+
+                            <div style="height: 200px; overflow-y: scroll;">
+                                <ul class="list-group mb-3">
+                                    <li class="list-group-item d-flex justify-content-between p-2" *ngFor="let item of orderItemDetails">
+                                        <div class="row container">
+                                            <div class="col-2">
+                                                <!-- Add small size image -->
+                                                <img src="../../../../assets/images/{{ item.product_img }}" height="50" width="50" />
+                                            </div>
+                                            <div class="col-8">
+                                               
+                                              <h6 class="my-0 text-primary">Prod :  {{item?.product_name}}</h6>
+                                                <small class="text-muted">Price : {{item?.price}}</small><br />
+                                                <small class="text-muted">Quantity :  {{item?.qty}} </small>
+                                            </div>
+                                            <div class="col-10 text-end">
+                                                <p class="text-success">Total: {{ (item && +item.price || 0) * (item && item.qty || 0) }}</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <li class="list-group-item bg-primary ">
+                                <div class="row container ">
+                                    <div class="col-6">
+                                        <h5 class="text-white">TOTAL </h5>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <h5 class="text-white"> Rs: {{  orderUserDetail.total}}</h5>
+                                    </div>
+                                </div>
+                            </li> 
+
+                            <!-- @if (Model.OrderHeader.PaymentStatus == staticDetails.PaymentStatusDelayedPayment &&
+                            Model.OrderHeader.OrderStatus == staticDetails.StatusShipped)
+                            {
+                                <button type="submit" class="btn btn-success form-control my-1">Pay Now</button>
+                            } -->
+                           
+                                    <button type="submit" asp-action="StartProcessing"
+                                            class="btn btn-primary form-control my-1">
+                                        Start Processing
+                                    </button>
+                               
+                               
+                                  <!-- <button type="submit" asp-action="ShipOrder" onclick="return validateInput()" class="btn btn-primary form-control my-1">Ship Order</button> -->
+                                
+
+                                <!-- @if (Model.OrderHeader.OrderStatus != staticDetails.StatusRefunded &&
+                               Model.OrderHeader.OrderStatus != staticDetails.StatusCancelled &&
+                               Model.OrderHeader.OrderStatus != staticDetails.StatusShipped) { -->
+                                    <!-- <button asp-action="CancelOrder" type="submit" class="btn btn-danger form-control my-1">Cancel Order</button> -->
+                                
+                                    <select id="orderstatus"
+                                    formControlName="orderstatus"   class="form-select"   (change)="selectStatu($event)">
+                                        <option *ngFor="let status of orderStatus" value={{status.value}}>{{ status.label }}</option>
+
+                                      </select>
+                                      <h1>You selected: {{selectedStatus}}</h1>
+                                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div
+class="alert"
+[ngClass]="alertType === 0 ? 'alert-success' : 'alert-danger'"
+*ngIf="alertMessage !== ''"
+>
+{{ alertMessage }}
+</div>
+
+
+<!-- <div *ngIf="orderUserDetail && orderItemDetails">
+    <h2>Order Details</h2>
+    <p><strong>Order ID:</strong> {{ orderUserDetail.orderId }}</p>
+    <p><strong>Order Date:</strong> {{ orderUserDetail.orderDate }}</p>
+    <p><strong>User Name:</strong> {{ orderUserDetail.userName }}</p>
+    <p><strong>Address:</strong> {{ orderUserDetail.address }}</p>
+    <p><strong>City:</strong> {{ orderUserDetail.city }}</p>
+    <p><strong>State:</strong> {{ orderUserDetail.state }}</p>
+    <p><strong>Pin:</strong> {{ orderUserDetail.pin }}</p>
+    <p><strong>Total:</strong> {{ orderUserDetail.total }}</p>
+    <p><strong>Order Status:</strong> {{ orderUserDetail.orderstatus }}</p>
+  
+    <h2>Order Items</h2>
+    <div *ngFor="let item of orderItemDetails">
+      <div>
+    <img [src]="item.product_img" alt="Product Image" width="100" height="100"> 
+        <p><strong>Product Name:</strong> {{ item.productId }}</p>
+        <p><strong>Quantity:</strong> {{ item.qty }}</p>
+        <p><strong>Price:</strong> {{ item.price }}</p>
+        <p><strong>Amount:</strong> {{ item.amount }}</p>
+      </div>
+    </div>
+  </div> -->
