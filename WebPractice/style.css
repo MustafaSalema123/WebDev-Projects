@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , 'sans-serif';
+    box-sizing: border-box;
+}
+
+/* .container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #153677 , #4e085f);
+    padding: 10px;
+}
+
+.todo-app
+{
+    width: 100%;
+    max-width: 570px;
+    background: #fff;
+    margin: 100px auto 20px;
+    border-radius:  10px;
+    padding: 40px 35px 70px;
+
+}
+.todo-app h2
+{
+
+    color: #002765;
+  
+    display: flex;
+    align-items:  center;
+    margin-bottom: 20px;
+}
+.todo-app h2 img
+{
+    width: 30px;
+    margin-left: 10px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    
+}
+
+input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+button
+{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+ul li
+{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    position: relative;
+}
+
+ul li::before
+{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: 8px;
+}
+
+ul li.checked
+{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before
+{
+    background-image: url(images/checked.png);
+}
+
+ul li span
+{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+ul li span:hover
+{
+    background: #edeef0;
+} */
+
+/* Quiz App  Css */
+
+body
+{
+    background: #001e4d;
+}
+.app
+{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 100px auto 0;
+
+
+}
+.app h1
+{
+    font-weight: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz
+{
+    padding: 20px 0;
+}
+.quiz h2
+{
+   font-size: 18px;
+   color: #001e4d;
+   font-weight: 600;
+}
+.btn
+{
+    background: #fff;
+    width: 100%;
+    color: #222;
+    font-weight: 500;
+    text-align: left;
+    border:  1px solid #222;
+    padding: 10px;
+    /* border-radius: 50px; */
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3f;
+}
+
+.btn:hover
+{
+    background: #222;
+    color: #fff;
+}
+#next-btn
+{
+    background: #001e4d;
+    width: 150px;
+    color: #fff;
+    font-weight: 500;
+    border:  0;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px auto 0;
+    cursor: pointer;
+   display: block;
+}
+
+
+
+/* for wheater app APi */
+/* 
+body
+{
+    background: #222;
+}
+
+.card
+{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg , #00feba , #5b548a);
+    color: #fff;
+    margin: 100px auto;
+    border-radius:  20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.search
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input
+{
+   border:  0;
+   outline: 0;
+   background: #ebfffc;
+   color: #555;
+   padding: 10px 25px;
+   height: 60px;
+   border-radius: 30px;
+   flex: 1;
+   margin-right: 16px;
+   font-size: 18px;
+}
+.search button
+{
+   border:  0;
+   outline: 0;
+   background: #ebfffc;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.search button img
+{
+   width: 20px;
+ 
+}
+
+.weather-icon
+{
+    width: 160px;
+    margin-top: 30px;
+}
+.weather h1
+{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2
+{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img
+{
+ width: 40px;
+ margin-right: 10px;   
+}
+
+.humidity , .wind 
+{
+    font-size: 28px;
+    margin-top: -6px;
+} */
